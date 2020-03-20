@@ -1,0 +1,22 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-3">MoviesApp</h1>
+        <p class="lead">Prototype - TheMovieDB API </p>
+    </div>
+</div>
+<div class="container">
+    <br>
+    <h1>In Theater</h1>
+    <hr>
+    <app-blockboard [movies]="popular"></app-blockboard>
+    <br><br>
+    <h1>Best of Drama</h1>
+    <hr>
+    <app-blockboard [movies]="rRated"></app-blockboard>
+
+    <br>
+    <h1>Best of 2018</h1>
+    <hr>
+    <app-blockboard [movies]="movies2013"></app-blockboard>
+
+</div>
